@@ -124,7 +124,6 @@ drumKit.pads.forEach(pad => {
 })
 
 drumKit.playBtn.addEventListener('click', () => {
-    console.log(drumKit);
     drumKit.updateBtn()
     drumKit.start()
 })

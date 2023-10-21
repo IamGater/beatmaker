@@ -125,3 +125,78 @@ select {
     transform: scale(1.2);
   }
 }
+
+@media (max-width: 1200px) {
+  .kick-track,
+  .snare-track,
+  .hihat-track {
+    display: contents;
+  }
+  .sequencer {
+    gap: 40px;
+  }
+}
+@media (max-width: 720px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+@media (max-width: 540px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 3rem;
+    height: 3rem;
+  }
+  .controls button {
+    padding: 0.5rem;
+  }
+  .play {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  .kick,
+  .snare,
+  .hihat {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 480px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 2rem;
+    height: 2rem;
+  }
+  .sequencer {
+    gap: 15px;
+  }
+  select {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .kick,
+  .snare,
+  .hihat {
+    font-size: 1.3rem;
+  }
+  .tempo p {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+}
+@media (max-width: 360px) {
+  .kick-pad,
+  .snare-pad,
+  .hihat-pad {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+  .controls button {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+  }
+}
